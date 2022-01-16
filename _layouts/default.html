@@ -12,9 +12,7 @@
 
     {{ content }}
 
-    {% if page.url != '/index.html' %}
-      {% include sidebar-toggle.html %}
-    {% endif %}
+    {% include sidebar-toggle.html %}
 
     {% if page.url == '/index.html' %}
       {% include subscribe.html %}
